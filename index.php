@@ -14,10 +14,10 @@
                 <legend>Preenche os Campos para gerar o pdf</legend>
                 <form action="pdf.php" method="post">
                     <input type="text" class="form-control" name="title" placeholder="Titulo do Documento"><br>
-                    <input type="text" class="form-control" name="Autor" placeholder="Quem escreveu o arquivo"><br>
+                    <input type="text" class="form-control" name="autor" placeholder="Quem escreveu o arquivo"><br>
                     <textarea name="text" id="" cols="30" rows="10" class="form-control" placeholder="Digite aqui o conteúdo do documento"></textarea><br>
 
-                    <button type="submit" class="btn btn-sucess form-control btn btn-success">Gerar Documento</button>
+                    <button type="submit" class="btn btn-sucess form-control btn btn-success" name="g">Gerar Documento</button>
                 </form>
             </fieldset>
         </div>
